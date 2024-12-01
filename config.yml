@@ -7,22 +7,18 @@ nametag-refresh-interval-ticks: 20
 tablist-refresh-interval-ticks: 20
 header-footer-refresh-interval-ticks: 2
 header:
-- '%animation:ServerName%'
-- ''
-- '&6&lRank: %rank%'
-- '&7&l>> %animation:Welcome%&3 &l%nick%&7&l! &7&l<<'
-- '&7Online players: &f%online%'
-- '&6Online staff: &e%staffonline%'
-- '&2Balance: &f%vault_eco_balance% &6♦'
+  - '%animation:ServerName%'
+  - ''
+  - '&6&lYour rank: &a%rank%'
+  - '&7&l%animation:Welcome%&3 &l%nick%&7&l! &7&l<<'
+  - '&7>> Online players: &f%online%'
+  - '&6>> Online staff: &e%staffonline%'
 #- '%animation:ping-tps%'
-- ''
-- '%animation:MyAnimation1%'
+  - ''
+  - '%animation:MyAnimation1%'
 footer:
-- '%animation:MyAnimation1%'
-- '%animation:time%'
-- ''
-- '&7Visit our discord' 
-- '%animation:discord%'
+  - '&9If you want to'
+  - '&a You can /fav and /ad!'
 
 #the yellow number in tablist
 #options: PING, HEARTS, NONE (to disable it), CUSTOM (any placeholder defined below)
